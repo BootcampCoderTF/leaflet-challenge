@@ -1,0 +1,28 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+/* CSS for the legend */
+.legend {
+  color: #000000;
+}
+/* CSS for icon elements within the legend */
+.legend i {
+  width: 16px;
+  height: 16px;
+  float: left;
+  margin-right: 20px;
+  opacity: 1;
+}
+/* CSS for information box */
+.info {
+  padding: 6px 6px;
+  background: white;
+}
